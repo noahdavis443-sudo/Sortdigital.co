@@ -167,11 +167,10 @@ form.audit .row{display:grid;gap:14px;grid-template-columns:1fr 1fr}
 <section id="contact" class="cta"><div class="wrap">
   <h2>Get your free online-presence audit</h2>
   <p>Tell us about your business and we'll send you the top fixes.</p>
-  <!-- Form is sent by FormSubmit (free). The FIRST submission sends a confirmation email to hello@sortdigital.co: click it once to activate. -->
-  <form class="audit" action="https://formsubmit.co/hello@sortdigital.co" method="POST">
+  <!-- Audit requests are sent by Formspree to the SORT Digital inbox -->
+  <form class="audit" action="https://formspree.io/f/xjyyyopn" method="POST">
     <input type="hidden" name="_subject" value="New audit request from sortdigital.co">
-    <input type="hidden" name="_template" value="table">
-    <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
     <div class="row">
       <label>Your name<input name="name" required autocomplete="name"></label>
       <label>Business name<input name="business" required autocomplete="organization"></label>
